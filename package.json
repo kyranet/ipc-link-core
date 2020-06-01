@@ -68,7 +68,7 @@
     "@typescript-eslint/parser": "^1.13.0",
     "eslint": "^6.8.0",
     "eslint-config-bamboo": "^2.0.0",
-    "nyc": "^14.1.1",
+    "nyc": "^15.1.0",
     "source-map-support": "^0.5.16",
     "tap-nyc": "^1.0.3",
     "tap-xunit": "^2.4.1",

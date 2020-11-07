@@ -51,7 +51,7 @@ export class NodeMessage {
 	 * @param content The content to send.
 	 */
 	public reply(content: unknown): void {
-		if (this.receptive) {
+		if (this.receptive && this.client.socket.writable) {
 			this.client.socket!.write(createFromID(this.id, false, serialize(content)));
 		}
 	}

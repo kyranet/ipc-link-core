@@ -72,7 +72,7 @@
     "source-map-support": "^0.5.16",
     "tap-nyc": "^1.0.3",
     "tap-xunit": "^2.4.1",
-    "tape": "^4.11.0",
+    "tape": "^5.2.2",
     "ts-node": "^8.5.4",
     "typedoc": "^0.14.2",
     "typescript": "^3.7.4"
